@@ -1,0 +1,159 @@
+/* #region  Basic styles*/
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #434455;
+  background-color: #fff;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* #endregion */
+
+/* #region  Common styles*/
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+.list-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* #endregion */
+
+/* #region Header */
+
+.page-header .part {
+  color: #2e2f42;
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contacts-link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
+
+/* #endregion */
+
+/* #region Hero*/
+
+.section-promo {
+  background-color: #2e2f42;
+}
+.page-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.btn {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: #404bbf;
+}
+/* #endregion */
+
+/* #region Team */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list-item {
+  background-color: #fff;
+}
+
+.team-item-title {
+  text-align: center;
+}
+
+.team-desc {
+  text-align: center;
+}
+
+/* #endregion */
+
+/* #region Footer */
+
+.page-footer {
+  background-color: #2e2f42;
+}
+
+.page-footer .part {
+  color: #f4f4fd;
+}
+
+.footer-desc {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+/* #endregion */
